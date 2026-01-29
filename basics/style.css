@@ -1,0 +1,73 @@
+body{
+    background-image:url(https://i.pinimg.com/1200x/71/46/3d/71463d390f5bcb67e42e4f181ec1e52c.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    height:100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login {
+  backdrop-filter:blur(10px);
+  height: 400px;
+  width: 700px;
+  box-shadow:4px gray;
+  border-radius:10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border:2px solid gray;
+}
+.pass, .email{
+    background:transparent;
+    border:none;
+    width:300px;
+    height:30px;
+    border-bottom:2px solid gray;
+    color:white;
+}
+h3,p{
+    color:white;
+}
+h3{
+    text-align:center;
+    font-size:30px;
+    margin-top:2px;
+    margin-bottom:3px;
+}
+
+.option{
+    display:flex;
+    justify-content:space-between;
+    color:white;
+    font-size:12px;
+}
+.submit a{
+    color:black;
+    text-decoration:none;
+}
+.submit{
+  text-align:center;
+  border:2px solid white;
+  border-color: grey;
+  cursor:pointer;
+  border-radius:20px;
+  width:300px;
+  height:30px;
+  background-color: grey;
+}
+.navbar {
+  padding: 15px 40px;
+  height: 20px;
+  width: 100%;
+  background-color: white;
+  display:flex;
+  justify-content:space-between;
+  
+}
